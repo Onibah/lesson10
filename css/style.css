@@ -1,0 +1,210 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,regular,500,700,900,&display=swap");
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-Roman.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeueBoldCondensed.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueBoldCondensed.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-CondensedBlack.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-CondensedBlack.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	font-family: "Roboto";
+	padding: 50px;
+	background: #F5F5F5;
+}
+
+/* .................................................... */
+
+
+
+/* Первый блок.......................................................... */
+.who-we-are {
+	color: #4B4B4B;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.who-we-are__indent {
+	padding: 100px 87px 0px 87px;
+	max-width: 1021px;
+	margin: 0px auto 230px auto;
+	border: 1px solid transparent;
+	background: url("../img/bg.png") 100% 0% no-repeat #FFFFFF;
+}
+.titles {
+	max-width: 583px;
+}
+.who-we-are__titles {
+	margin: 0px 0px 36px 0px;
+}
+.titles__sub-title {
+	font-weight: 700;
+	line-height: 17px;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 33px;
+	margin: 0px 0px 33px 0px;
+	background: url("../img/mark.svg") -5px -6px no-repeat;
+}
+.titles__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #02133C;
+}
+.who-we-are__text {
+	margin: 0px 0px 54px 0px;
+}
+.who-we-are__image {
+	margin: 0px 0px -120px 0px;
+}
+.who-we-are__img {
+	max-width: 100%;
+}
+
+
+
+
+
+/* Второй блок................................................ */
+.promise__indent {
+	max-width: 1021px;
+	margin: 0px auto 120px auto;
+}
+.promise__titles {
+	margin: 0px 0px 68px 0px;
+}
+.promise__items {
+	max-width: 1021px;
+	margin: 0 auto;
+	font-size: 0px;
+}
+.items__item {
+	display: inline-block;
+	width: 324px;
+	padding: 0px 0px 1px 0px;
+}
+.items__item:not(:last-child):not(:nth-child(3)) {
+	margin-right: 24px;
+}
+.items__image {
+	display: inline-block;
+	width: 63px;
+	vertical-align: top;
+	margin: 0px 23px 0px 0px;
+}
+.items__text {
+	display: inline-block;
+	width: 235px;
+	vertical-align: top;
+}
+.items__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #02133C;
+	margin: 0px 0px 20px 0px;
+	padding: 4px 0px 0px 0px;
+}
+.items__txt {
+	font-size: 16px;
+}
+
+
+
+
+/* Третий блок.......................................................... */
+.services__indent {
+	max-width: 1021px;
+	margin: 0px auto 120px auto;
+}
+.services__titles {
+	margin: 0px 0px 78px 0px;
+}
+.services__items {
+	max-width: 1021px;
+	margin: 0 auto;
+	font-size: 0px;
+}
+.items__item_indent-centre-bg {
+	padding: 50px 44px 50px 43px;
+	text-align: center;
+	background: #FFFFFF;
+	margin-bottom: 24px;
+}
+
+.items__item_indent-centre-bg:hover {
+	padding: 50px 44px 50px 43px;
+	text-align: center;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24);
+}
+.items__image_margin-bottom {
+	margin: 0px 0px 33px 0px;
+}
